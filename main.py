@@ -6,6 +6,8 @@ from entity import Entity, outline
 
 
 
+
+
 class Player(Entity):
     def __init__(self, *args):
         super().__init__(*args)
