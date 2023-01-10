@@ -182,4 +182,4 @@ class Entity:
 
     def update(self, dt):
         if self.active_animation:
-            self.active_animation.play(dt)
+            self.active_animation.play(dt)  
